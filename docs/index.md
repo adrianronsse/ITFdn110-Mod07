@@ -1,3 +1,7 @@
+
+
+
+
 # Assignment 7
 
 ## Pickling files and Structured Error Handling
@@ -80,30 +84,25 @@ _Figure 3 – Structured error handling_
 
 ### Testing the code: 
 After preparing the code, I needed to test it to make sure it was working as expected. First I opened the program in the command console to test. Here I see that I am able to log dimensions and view that data:
-![image of command conole showing data collection](https://github.com/adrianronsse/ITFdn110-Mod07/blob/main/Screenshots/cmdconsoletest.png)
-
-_Figure 4 – Command console test_
-
+![image of command conole showing data collection](https://user-images.githubusercontent.com/88747068/131229924-51ee5784-6c15-4699-abe3-22ad26ce65f7.png)  
+_Figure 4 – Command console test_  
 
 Then I tested it in PyCharm as well and found I was also able to save the file as intended.
 
-![image of PyCharm interface showing successful save message](https://github.com/adrianronsse/ITFdn110-Mod07/blob/main/Screenshots/PyCharmTest.png)
-
-_Figure 5 – PyCharm test: data saves successfully_
+![image of PyCharm interface showing successful save message](https://user-images.githubusercontent.com/88747068/131229927-09a8327a-64b0-43fb-afe7-811e2de1a08a.png)  
+_Figure 5 – PyCharm test: data saves successfully_  
 
 
 I can confirm too, that the file has populated in my folder along with some other files that support it:
 
-![image of open window containing StorefrontTakeoff.dat file and others](https://github.com/adrianronsse/ITFdn110-Mod07/blob/main/Screenshots/CheckSaveLocation.png)
-
-_Figure 6 — Files saved in folder_
+![image of open window containing StorefrontTakeoff.dat file and others](https://user-images.githubusercontent.com/88747068/131229898-6f61f6ba-0146-4442-b2dc-4964e244c359.png)  
+_Figure 6 — Files saved in folder_  
 
 
 Unfortunately when I stop and restart the program, I find that I have only loaded the final data entry:
 
-![image of PyCharm interface resulting only one pair of width and height measurements](https://github.com/adrianronsse/ITFdn110-Mod07/blob/main/Screenshots/PyCharmTest2.png)
-
-_Figure 7 – PyCharm test: only partial data load_
+![image of PyCharm interface resulting only one pair of width and height measurements](https://user-images.githubusercontent.com/88747068/131229920-d1b355dc-f83e-4be8-a336-a7c73bdb0e8f.png)  
+_Figure 7 – PyCharm test: only partial data load_  
 
 ### Summary:
 In this coding exercise I was able to write binary data to a file using the shelve module, which is a way to pickle dictionaries. I was also able to load some of that data back to the file, although was not successful in fully reconstructing the dictionary list. I also used structured error handling to help ensure that the program would run smoothly and not quit unexpectedly.
